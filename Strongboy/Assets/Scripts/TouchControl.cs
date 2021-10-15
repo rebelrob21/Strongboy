@@ -11,7 +11,6 @@ public class TouchControl : MonoBehaviour
     public Vector2 SwipeDelta { get { return swipeDelta;  } }
     public bool SwipeUp { get { return swipeUp; } }
     public bool SwipeDown { get { return swipeDown; } }
-    public GameObject Strongboy;
     public GameObject EnemyCollider;
     public GameOver gameOver;
 

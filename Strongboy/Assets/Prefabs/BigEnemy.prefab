@@ -403,7 +403,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef8dbd0ea478694fbcbaba00f154220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 5657360313351246583}
+  target: {fileID: 0}
+  SceneLoader: {fileID: 0}
   speed: 0
 --- !u!114 &5657360313351246569
 MonoBehaviour:
@@ -412,7 +413,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5657360313351246583}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06c40d19de1430743b8d7b2580dfb226, type: 3}
   m_Name: 
@@ -451,6 +452,7 @@ MonoBehaviour:
   gameOver: {fileID: 9160790861576778123, guid: ecafb95e20531e54296c5b7a53ee3767,
     type: 3}
   touchControls: {fileID: 5657360313351246569}
+  EnemyCollider: {fileID: 0}
 --- !u!1 &5657360313677555071
 GameObject:
   m_ObjectHideFlags: 0

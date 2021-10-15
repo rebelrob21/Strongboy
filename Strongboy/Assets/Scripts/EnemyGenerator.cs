@@ -11,7 +11,7 @@ public class EnemyGenerator : MonoBehaviour
     public GameObject EnemySpawnPoint;
     float timer = 0.1f;
     int RandomNumber;
-   public float timeUntilNextEnemyIsSpawned = 3;
+    public float timeUntilNextEnemyIsSpawned = 3;
     float timeDecrease = 0.0001f;
 
     void Start()

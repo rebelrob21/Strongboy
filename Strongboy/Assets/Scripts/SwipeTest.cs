@@ -6,13 +6,14 @@ public class SwipeTest : MonoBehaviour
 {
     public GameOver gameOver;
     public TouchControl touchControls;
-    public GameObject Strongboy;
     public GameObject EnemyCollider;
+
 
     void Start()
     {
         EnemyCollider = GameObject.Find("EnemyCollider");
         gameOver = EnemyCollider.GetComponent<GameOver>();
+        touchControls = this.GetComponent<TouchControl>();
     }
 
     private void Update()
